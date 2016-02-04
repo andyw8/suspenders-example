@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/thoughtbot/refills.git
+  revision: 7d05eb4d668d1166b853701682e892a607d3ae48
+  specs:
+    refills (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -173,7 +179,6 @@ GEM
     rake (10.5.0)
     recipient_interceptor (0.1.2)
       mail
-    refills (0.1.0)
     rspec-core (3.4.2)
       rspec-support (~> 3.4.0)
     rspec-expectations (3.4.0)
@@ -276,7 +281,7 @@ DEPENDENCIES
   rack-timeout
   rails (~> 4.2.0)
   recipient_interceptor
-  refills
+  refills!
   rspec-rails (~> 3.4.0)
   sass-rails (~> 5.0)
   shoulda-matchers

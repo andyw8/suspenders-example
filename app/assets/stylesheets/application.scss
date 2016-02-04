@@ -5,4 +5,11 @@
 @import "base/grid-settings";
 @import "neat";
 @import "base/base";
-@import "refills/flashes";
+@import "refills/**/*";
+
+section {
+  @include outer-container;
+  border: 1px solid blue;
+  aside { @include span-columns(3); }
+  article { @include span-columns(9); }
+}
